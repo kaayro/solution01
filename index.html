@@ -13,6 +13,7 @@
 				init: function(){
 					$.ajax({
 						data: {nombre:''},
+						method: 'POST',
 						url: 'http://servidoriis.laitaliana.com.mx/OV/webservices/reparto.asmx/hola',
 						success: function(msg){
 							alert(msg);
